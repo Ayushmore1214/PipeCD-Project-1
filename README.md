@@ -21,6 +21,4 @@ I wanted to make sure other students could try awesome tools like PipeCD without
 
 Check out what else I’m shipping: [kasbu.bio/heyyayush](https://kasbu.bio/heyyayush)
 
----
 
-**Want me to help you write a punchy LinkedIn or Twitter post to share this repo once you push it?**
