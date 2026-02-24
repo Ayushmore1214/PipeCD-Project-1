@@ -1,13 +1,5 @@
 # PipeCD-Project-1
 
-I hear you—let’s strip away the "AI-generated" polish and make it sound like it actually came from a dev who just finished a late-night coding session.
-
-Here is a version that’s conversational, direct, and focused on the value you're shipping.
-
----
-
-# PipeCD-Project-1
-
 I noticed that trying to learn PipeCD usually hits a wall when you don’t have cloud credits or get stuck in networking hell. So, I built this starter kit to make your first deployment happen in minutes, for free, right inside **GitHub Codespaces**.
 
 ### What’s the deal?
