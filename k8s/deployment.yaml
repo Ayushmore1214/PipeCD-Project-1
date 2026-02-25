@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-pipecd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-pipecd
+  template:
+    metadata:
+      labels:
+        app: hello-pipecd
+    spec:
+      containers:
+        - name: web
+          image: hello-pipecd:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80

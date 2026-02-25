@@ -1,0 +1,16 @@
+apiVersion: pipecd.dev/v1beta1
+kind: Application
+spec:
+  name: hello-pipecd
+  pipedId: piped-local
+  description: "Hello World HTML site deployed via PipeCD on local kind cluster"
+  labels:
+    app: hello
+  input:
+    kubernetes:
+      manifests:
+        - k8s/deployment.yaml
+        - k8s/service.yaml
+  pipeline:
+    stages:
+      - name: K8S_SYNC
